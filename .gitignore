@@ -1,0 +1,59 @@
+# ----------------------------
+# Terraform
+# ----------------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Terraform CLI config
+.terraformrc
+terraform.rc
+
+# ----------------------------
+# Sensitive / secrets
+# ----------------------------
+*.pem
+*.key
+*.ppk
+*.env
+.env.*
+secrets.tf
+secrets*.tf
+credentials*
+*.crt
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+
+# ----------------------------
+# OS / Editor files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ / PyCharm
+.idea/
+
+# ----------------------------
+# Shell / temp files
+# ----------------------------
+*.swp
+*.tmp
+*.bak
+*~
